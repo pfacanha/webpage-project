@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1F2937;
+    margin: 0px;
 }
 
 a {
@@ -38,22 +38,17 @@ button {
     border-radius: 10px;
 }
 
-.main {
-    display: flex;
-    margin-top: 40px;
-    gap: 40px;
+span {
+    text-align: center;
+    padding: 5px;
 }
 
-.box1,
-.box2 {
-    flex: 1;
-}
-
-.box2 {
-    background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    background-color: white;
+    font-weight: 900;
+    text-align: center;
 }
 
 .logo {
@@ -64,12 +59,61 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
+    padding: 0 40px;
+}
+.main {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    background-color: #1F2937;
 }
 
+.hero1,
+.hero2 {
+    flex: 1;
+}
+
+.hero2 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.card{
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.card-content{
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    text-align: center;
+    text-wrap: wrap;
+    padding: 20px 20px;
+}
+
+.quotes p {
+    font-size: 36px;
+    color: #1F2937;
+}
 
 #wrapper {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 1020px;
 }
