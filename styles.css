@@ -105,15 +105,16 @@ h2 {
     background-color: #E5E7EB;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 60px 200px;
+    padding: 60px 220px;
 }
 
 .quotes i {
-    font-size: 36px;
+    font-size: 26px;
     color: #1F2937;
+    max-width:  800px;
 }
 
 .quotes p {
