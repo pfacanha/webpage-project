@@ -26,7 +26,7 @@ h1 {
 
 p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
     font-weight: 900;
 }
 
@@ -60,11 +60,11 @@ h2 {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 0 40px;
+    padding: 0 200px;
 }
 .main {
     display: flex;
-    padding: 40px;
+    padding: 60px 200px;
     gap: 40px;
     background-color: #1F2937;
 }
@@ -104,13 +104,21 @@ h2 {
 .quotes {
     background-color: #E5E7EB;
     text-align: center;
-    text-wrap: wrap;
-    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 200px;
+}
+
+.quotes i {
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .quotes p {
-    font-size: 36px;
-    color: #1F2937;
+    color: black;
+    margin-left: auto;
 }
 
 #wrapper {
